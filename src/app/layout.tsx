@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   title: "NextJS Tailwind Course Details Page",
   description:
     "Introducing Tailwind Course Details Page, a comprehensive and user-friendly course details template designed using Tailwind CSS and Material Tailwind.",
+  keywords:
+    "course details page, course details page template, course details template, course information, educational content, tailwind, tailwind css, tailwind template, course description, e-learning, online education, course materials, tailwind css, material tailwind, free template, educator, course provider, online course materials, course branding, digital course materials, course builder, responsive design, course showcase",
 };
 
 export default function RootLayout({
@@ -49,21 +51,21 @@ export default function RootLayout({
         {/* End Google Tag Manager */}
         <link
           rel="canonical"
-          href="https://www.creative-tim.com/product/nextjs-tailwind-author-page"
+          href="https://www.creative-tim.com/product/nextjs-tailwind-course-details-page"
         />
 
         <meta
           itemProp="name"
-          content="NextJS Tailwind Author Page by Creative Tim"
+          content="NextJS Tailwind Course Details Page by Creative Tim"
         />
         <meta
           itemProp="description"
-          content='Introducing Tailwind Author Page, a free "About the Author" blog page based on Tailwind CSS and Material Tailwind.'
+          content="Introducing Tailwind Course Details Page, a comprehensive and user-friendly course details template designed using Tailwind CSS and Material Tailwind."
         />
 
         <meta
           itemProp="image"
-          content="https://s3.amazonaws.com/creativetim_bucket/products/742/original/material-tailwind-react-author-template-thumbnail.jpg"
+          content="https://s3.amazonaws.com/creativetim_bucket/products/745/original/material-tailwind-react-courses-details-template-thumbnail.jpg"
         />
 
         {/* Twitter Card data */}
@@ -71,37 +73,37 @@ export default function RootLayout({
         <meta name="twitter:site" content="@creativetim" />
         <meta
           name="twitter:title"
-          content="NextJS Tailwind Author Page by Creative Tim"
+          content="NextJS Tailwind Course Details Page by Creative Tim"
         />
 
         <meta
           name="twitter:description"
-          content='Introducing Tailwind Author Page, a free "About the Author" blog page based on Tailwind CSS and Material Tailwind.'
+          content="Introducing Tailwind Course Details Page, a comprehensive and user-friendly course details template designed using Tailwind CSS and Material Tailwind."
         />
         <meta name="twitter:creator" content="@creativetim" />
         <meta
           name="twitter:image"
-          content="https://s3.amazonaws.com/creativetim_bucket/products/742/original/material-tailwind-react-author-template-thumbnail.jpg"
+          content="https://s3.amazonaws.com/creativetim_bucket/products/745/original/material-tailwind-react-courses-details-template-thumbnail.jpg"
         />
 
         {/* Open Graph data */}
         <meta property="fb:app_id" content="655968634437471" />
         <meta
           property="og:title"
-          content="NextJS Tailwind Author Page by Creative Tim"
+          content="NextJS Tailwind Course Details Page by Creative Tim"
         />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="http://demos.creative-tim.com/nextjs-tailwind-author-page"
+          content="http://demos.creative-tim.com/nextjs-tailwind-course-details-page"
         />
         <meta
           property="og:image"
-          content="https://s3.amazonaws.com/creativetim_bucket/products/742/original/material-tailwind-react-author-template-thumbnail.jpg"
+          content="https://s3.amazonaws.com/creativetim_bucket/products/745/original/material-tailwind-react-courses-details-template-thumbnail.jpg"
         />
         <meta
           property="og:description"
-          content='Introducing Tailwind Author Page, a free "About the Author" blog page based on Tailwind CSS and Material Tailwind.'
+          content="Introducing Tailwind Course Details Page, a comprehensive and user-friendly course details template designed using Tailwind CSS and Material Tailwind."
         />
         <meta property="og:site_name" content="Creative Tim" />
 
@@ -112,7 +114,7 @@ export default function RootLayout({
         ></script>
         <link
           rel="shortcut icon"
-          href="/nextjs-tailwind-author-page/favicon.png"
+          href="/nextjs-tailwind-course-details-page/favicon.png"
           type="image/png"
         />
       </head>
