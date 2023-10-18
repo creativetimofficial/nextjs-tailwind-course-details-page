@@ -4,7 +4,6 @@ import Image from "next/image";
 import React from "react";
 import { Typography, Carousel } from "@material-tailwind/react";
 
-
 export function CarouselFeatures() {
   return (
     <section className="px-8 pt-40 pb-20">
@@ -19,7 +18,7 @@ export function CarouselFeatures() {
           Discover what our students have to say about our course!
         </Typography>
       </div>
-      <div className="container mx-auto !rounded-lg bg-[url('/image/Background.png')] bg-center py-10 lg:px-16">
+      <div className="container mx-auto !rounded-lg bg-[url('/nextjs-tailwind-course-details-page/image/Background.png')] bg-center py-10 lg:px-16">
         <Carousel
           transition={{ duration: 1 }}
           nextArrow={() => <></>}
@@ -69,7 +68,7 @@ export function CarouselFeatures() {
                 <Image
                   width={256}
                   height={256}
-                  src="/image/logos/logo-amazon 3.svg"
+                  src="/nextjs-tailwind-course-details-page/image/logos/logo-amazon 3.svg"
                   alt="testimonial image"
                   className="h-full w-2/4 object-contain md:!w-2/3"
                 />
