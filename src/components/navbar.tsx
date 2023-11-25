@@ -4,6 +4,7 @@ import {
   Collapse,
   IconButton,
   Typography,
+  Button,
 } from "@material-tailwind/react";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
@@ -77,9 +78,6 @@ export function Navbar() {
           <NavItem href="https://www.material-tailwind.com/docs/react/installation">
             Docs
           </NavItem>
-          <NavItem href="https://www.material-tailwind.com/blocks">
-            Blocks
-          </NavItem>
         </ul>
         <div className="hidden gap-2 lg:flex">
           <IconButton
@@ -103,6 +101,11 @@ export function Navbar() {
           >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
+          <a href="https://www.material-tailwind.com/blocks" target="_blank">
+            <Button color={isScrolling ? "gray" : "white"} size="sm">
+              Blocks
+            </Button>
+          </a>
         </div>
         <IconButton
           variant="text"
@@ -140,6 +143,11 @@ export function Navbar() {
             <IconButton variant="text" color="gray" size="sm">
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
+            <a href="https://www.material-tailwind.com/blocks" target="_blank">
+              <Button color="gray" size="sm" className="ml-auto">
+                Blocks
+              </Button>
+            </a>
           </div>
         </div>
       </Collapse>
